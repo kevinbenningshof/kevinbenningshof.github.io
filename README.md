@@ -2,8 +2,6 @@
 
 This is the Git repository for the website **kevinbenningshof.nl**, which is currently using the Hugo CMS platform.
 
-This website was migrated from the **mjcb.io** domain in early 2025.
-
 ## Theme ##
 
 The website **kevinbenningshof.nl** uses the theme [Hugo Clarity](https://github.com/chipzoller/hugo-clarity).
