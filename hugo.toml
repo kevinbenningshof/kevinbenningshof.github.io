@@ -1,0 +1,106 @@
+baseURL = "https://kevinbenningshof.github.io/"
+#languageCode = "en-us"
+title = "kevinbenningshof.nl"
+copyright = "Copyright © 2024 - 2025 Kevin Benningshof"
+theme = "hugo-clarity"
+#paginate = 8
+
+[params]
+    mainSections = ["posts","blog"]
+    intro = true
+    headline = "My website for publishing my interest regarding system administration, homelab's and other personal interests."
+    description = "My website for publishing my interest regarding system administration, homelab's and other personal interests."
+    introDescription = "My website for publishing my interest regarding system administration, homelab's and other personal interests"
+    author = "Kevin Benningshof"
+	email = "kevin@kevinbenningshof.nl"
+    opengraph = true
+    dateFormat = "Monday, January 2, 2006"
+    numberOfTagsShown = 14
+    logo = "logos/logo.png"
+    iconsDir = "/"
+    autoHeadingID = true
+    rssSummary = true
+    largeTwitterCard = true
+    enforceLightMode = true
+    enableSearch = true
+    codeLineNumbers = false
+    mobileNavigation = "right"
+    ignoreErrors = [ "error-remote-getjson" ]
+	
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+
+[goldmark]
+  [goldmark.renderer]
+    hardWraps = false
+    unsafe = true # change to false to disable inclusion of rawHTML and math functions
+    xhtml = false
+  [goldmark.extensions]
+    typographer = false
+  [highlight]
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = "--"
+    lineNoStart = 1
+    lineNos = true # always set to true # else line numbers won't show at all! even when you toggle them on in the UI
+    lineNumbersInTable = false # toggling this on (i.e to true) or deleting this line will break the code blocks functionality. Will
+    noClasses = false
+    # style = "monokai"
+    tabWidth = 2
+
+[permalinks]
+    blog = "/blog/:year/:month/:day/:slug/"
+    posts = "/posts/:year/:month/:day/:slug/"
+
+[sitemap]
+    changefreq = "weekly"
+    filename = "sitemap.xml"
+    priority = 0.5
+
+[privacy]
+    [privacy.youtube]
+        disable = true
+        privacyEnhanced = true
+
+[menu]
+    [[menu.main]]
+        identifier = "home"
+        name = "Home"
+        title = "Home"
+        url = "/"
+        weight = 10
+
+    #[[menu.main]]
+    #    identifier = "publications"
+    #    name = "Publications"
+    #    title = "Publications"
+    #    url = "/publications/"
+    #    weight = 20
+
+    [[menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        title = "Posts"
+        url = "/posts/"
+        weight = 30
+
+    [[menu.main]]
+        identifier = "blog"
+        name = "Blog"
+        title = "Blog"
+        url = "/blog/"
+        weight = 30
+
+    [[menu.main]]
+        identifier = "about"
+        name = "About"
+        title = "About"
+        url = "/about/"
+        weight = 50
+
+    #[[menu.main]]
+    #    identifier = "archives"
+    #    name = "Archives"
+    #    title = "Archives"
+    #    url = "/archives/"
+    #    weight = 70
