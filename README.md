@@ -50,10 +50,3 @@ The website **kevinbenningshof.nl** uses the theme [Hugo Clarity](https://github
 * **/content/icons/** - Contains all blog and post icons that are used as thumbnail.
 * **/content/images/** - Contains the images for blogs and posts.
 * **/content/posts/** -  Contains all posts that are created for personal information.
-* **/layouts/partials/** - Contains all partial templates which are added to the existing theme.
-* **/layouts/shortcodes/** - Contains all custom shortcodes that can be used.
-* **/static/** - Contains all content that is placed in the root of the website when rendered by Hugo.
-* **/static/docs/blog/** - Contains all linked documents for blog posts. Directories are numbered to match the blog post.
-* **/static/gdpr-notice/** - Contains the necessary files for the GDPR notice for the website (if required).
-* **/static/images/** - Contains all images.
-* **/static/images/blog/** - Contains all images for blog posts. Directories are numbered to match the blog post.
