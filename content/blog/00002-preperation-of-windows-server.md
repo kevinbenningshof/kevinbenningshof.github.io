@@ -58,7 +58,8 @@ In my case, there is a standard of the devicename that is applied. So the server
 ![](/images/00002-windows-server-post-installation/set-computername-01.png)
 5. It’s also possible, to preform these changes through PowerShell 
 {{% notice tip "PowerShell" %}}
-To change the computername through PowerShell, this can be preformed with the following command.  
+To change the computername through PowerShell, this can be preformed with the following command. 
+
 ```pwsh
     PS C:\Users\Administrator> Rename-Computer msvs-addc-22-01
     WARNING: The change will take effect after you restart the computer WIN-2L3H1EP69NO
@@ -88,6 +89,7 @@ To make sure, that the server is able to communicate with the internet and other
 5. It's also possible, to preform these changes through PowerShell
 {{% notice tip "PowerShell" %}}
 To check the current IP address, gateway and DNS settings.  
+
 ```pwsh
     PS C:\Users\Administrator> Get-NetIPConfiguration
 

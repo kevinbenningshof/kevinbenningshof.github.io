@@ -34,7 +34,7 @@ This will make sure, that the domain controller has been supplied with a baselin
 For this, you can follow the blogs on 
 
 * [How to install Windows Server](/blog/2025/02/24/how-to-install-windows-server/)
-* [Preperation of Windows Server](/blog/2025/03/04/preperation-of-windows-server/)
+* [Preperation of Windows Server](/blog/2025/03/01/preperation-of-windows-server/)
 
 
 ### Installation of Active Directory (AD DS) ###
@@ -67,7 +67,7 @@ For this, you can follow the blogs on
 14. The installation of **Active Directory Domain Services** & **DNS** wil start.
 ![](/images/00003-installation-of-active-directory/installing-active-directory-13.png)
 
-### Promoting to Active Directory ###
+### Promoting to Domain Controller ###
 
 Within the previous steps, we have installed the Active Directory Domain Services and DNS features. Now that these are installed, we can continue with the configuration. 
 
