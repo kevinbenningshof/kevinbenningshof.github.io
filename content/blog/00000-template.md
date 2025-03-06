@@ -12,7 +12,7 @@ tags: [
 categories: [ "blog" ]
 thumbnail: "/images/00000-template/windows-server-2022.png"
 toc: true
-draft: false
+draft: true
 featured: true
 ---
 
