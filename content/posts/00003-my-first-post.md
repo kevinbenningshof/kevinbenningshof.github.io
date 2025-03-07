@@ -1,7 +1,7 @@
 ---
 title: "My first post!"
 slug: "my-first-post"
-date: "2025-02-23T11:01:00"
+date: "2025-02-01T11:01:00"
 author: "Kevin Benningshof"
 summary: "This is my first post on kevinbenningshof.nl"
 tags: [
