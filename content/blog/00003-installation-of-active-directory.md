@@ -1,7 +1,7 @@
 ---
 title: "Installation of Active Directory Domain Services"
 slug: "installation-preperation-of-active-directory-domain-services"
-date: "2025-03-02T21:00:00"
+date: "2025-02-22T21:00:00"
 author: "Kevin Benningshof"
 summary: "Active Directory is a directory service that runs on Microsoft Windows Server. It is used for identity and access management. AD DS stores and organizes information about the people, devices and services connected to a network."
 tags: [

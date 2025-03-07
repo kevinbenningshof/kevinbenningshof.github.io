@@ -1,7 +1,7 @@
 ---
 title: "Add a second domain controller to the domain"
 slug: "add-second-domain-controller-to-the-domain"
-date: "2025-03-02T21:00:00"
+date: "2025-03-01T21:00:00"
 author: "Kevin Benningshof"
 summary: "Active Directory is a directory service that runs on Microsoft Windows Server. It is used for identity and access management. But what if that one server goes down? To prevent this issue, we can create, configure the second domain controller to provide fault tolerance."
 tags: [

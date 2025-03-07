@@ -1,7 +1,7 @@
 ---
 title: "Preperation of Windows Server"
 slug: "preperation-of-windows-server"
-date: "2025-03-01T21:00:00"
+date: "2025-02-15T21:00:00"
 author: "Kevin Benningshof"
 summary: "After the installation of Microsoft Windows Server has been completed, it's not ready for being being deployed and being active within production. Within this blog, we will preform the steps that are set in the 'checklist' to make sure this has been preformed before usage."
 tags: [

@@ -1,7 +1,7 @@
 ---
 title: "How to Install Windows Server"
 slug: "how-to-install-windows-server"
-date: "2025-02-24T09:01:00"
+date: "2025-02-08T21:00:00"
 author: "Kevin Benningshof"
 summary: "Microsoft Windows Server is a popular operating system running in almost every company next to Linux. What if you want to install Windows Server within your home lab or within a organization? Most of the time they will use some kinds of template to make sure this can be deployed within just a few minutes. Within this tutorial, i will learn you the steps that are needed to create this Virtual Machine and install Windows Server 2022 on it running on Proxmox."
 tags: [
