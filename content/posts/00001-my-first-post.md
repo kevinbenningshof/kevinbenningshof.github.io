@@ -9,7 +9,7 @@ tags: [
     "Website"
 ]
 categories: [ "posts" ]
-thumbnail: "/images/00003-my-first-post/windows-server-2022.png"
+thumbnail: "/icons/windows-server-2022.png"
 #toc: true
 draft: false
 #featured: true
