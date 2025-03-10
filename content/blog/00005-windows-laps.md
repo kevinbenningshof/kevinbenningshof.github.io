@@ -189,9 +189,9 @@ When you want to check if the reset has been executed on the password, preform t
 * Set new LAPS password expiration
 * LAPS local admin account name
 * LAPS local admin account password
-4. To see the actuall password, click on **Hide Password**.
+5. To see the actuall password, click on **Hide Password**.
 ![](/images/00005-windows-laps/verify-laps-password-01.png)
-**SCREENSHOT NEEDED**
+
 
 ### PowerShell ###
 1. Open **PowerShell**
