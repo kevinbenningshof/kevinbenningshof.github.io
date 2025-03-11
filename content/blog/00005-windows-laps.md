@@ -93,7 +93,7 @@ All supported editions of the above platforms have been updated with Windows LAP
 
 ### Check if LAPS is active ###
 
-###### PowerShell ######
+**PowerShell**
 1. To verify if the LapsADSchema is configured properly, you can run the following command to recieve the results
 {{< highlight html >}}
     PS C:\Users\Administrator> Update-LapsADSchema -Verbose
@@ -109,7 +109,7 @@ All supported editions of the above platforms have been updated with Windows LAP
     * msLAPS-EncryptedDSRMPasswordHistory.
 {{< /highlight >}}
 
-###### Active Directory ######
+**Active Directory**
 1. The verification can also be preformed through **Active Directory User and Computers**.
 2. Right-click on the **Object** and click on **Properties**
 3. Within the tabs **LAPS** and **Attribute Editor**, we can see it's configured.
@@ -180,7 +180,7 @@ When the administrator account was in use, the password will automatically reset
 After the 90 minute interval, the group policies will be updates automatically. This will enforce the use of LAPS.
 When you want to check if the reset has been executed on the password, preform the following steps.
 
-### Active Directory ###
+**Active Directory**
 1. Open **Active Directory Users and Computers**.
 2. Navigate to the **Organizational Unit** where the devices are active. 
 3. **Double click** on the server and navigate to **LAPS**.
@@ -193,7 +193,7 @@ When you want to check if the reset has been executed on the password, preform t
 ![](/images/00005-windows-laps/verify-laps-password-01.png)
 
 
-### PowerShell ###
+**PowerShell**
 1. Open **PowerShell**
 2. Enter the following command
 {{< highlight html >}}
@@ -212,7 +212,7 @@ When you want to check if the reset has been executed on the password, preform t
 
 ## How to reset Windows LAPS password ##
 
-#### Active Directory ####
+**Active Directory**
 1. Open **Active Directory Users and Computers**.
 2. Navigate to the **Organizational Unit** where the devices are active. 
 3. **Double click** on the server and navigate to **LAPS**
@@ -221,7 +221,8 @@ When you want to check if the reset has been executed on the password, preform t
 5. Open the command-prompt on the device and preform **GPupdate /force**. When the group policies are updated, you can check if the password has been reset.
 ![](/images/00005-windows-laps/change-laps-password-02.png)
 
-#### PowerShell ####
+**PowerShell**
+
 It's also possible to preform the password reset within PowerShell, for this you will need to preform the command on the server itself
 
 {{< highlight html >}}
