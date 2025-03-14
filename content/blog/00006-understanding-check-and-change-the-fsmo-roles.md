@@ -3,7 +3,7 @@ title: "Understand, check and change the FSMO roles"
 slug: "understanding-check-and-change-the-fsmo-roles"
 date: "2025-03-09T21:00:00"
 author: "Kevin Benningshof"
-summary: "After the installation and configuration of Active Directory Domain Services on one or more domain controllers, we are reliant on the communication between them."
+summary: "After the installation and configuration of Active Directory Domain Services on one or more domain controllers, we are reliant on the communication between them who is responsible for the FSMO roles."
 tags: [
     "Microsoft",
     "windows Server",
