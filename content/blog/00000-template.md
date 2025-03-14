@@ -1,18 +1,16 @@
 ---
 title: "template"
 slug: "template"
-date: "2024-02-24T19:01:00"
+date: "2030-11-11T19:01:00"
 author: "Kevin Benningshof"
 summary: "template"
 tags: [
-    "tag 1",
-    "tag 2",
-    "tag 3"
+    "TEMPLATE"
 ]
 categories: [ "blog" ]
 thumbnail: "/images/00000-template/windows-server-2022.png"
 toc: true
-draft: true
+draft: false
 featured: true
 ---
 

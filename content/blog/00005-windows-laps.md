@@ -3,7 +3,7 @@ title: "Installation and configuration of LAPS (Local Administrator Password Sol
 slug: "installation-and-configuration-of-laps"
 date: "2025-03-02T21:00:00"
 author: "Kevin Benningshof"
-summary: "Withing this blog, we are going to take a look how it's possible to install, configure and deploy Windows LAPS"
+summary: "Within this blog, we are going to take a look how it's possible to install, configure and deploy Windows LAPS"
 tags: [
     "Microsoft",
     "windows Server",
@@ -47,16 +47,18 @@ All supported editions of the above platforms have been updated with Windows LAP
 
 ## How to install Windows LAPS ##
 
-### Extending the Domain Schema ###
-1. Open **PowerShell** as **Administrator** on one of the domain controllers.
-2. Run the following command to verify if **LAPS module** is present.
+Currently, it's not required anymore to download and install the Windows LAPS client on one of the Domain Controllers since the patch releases of April 2023.
+Therefor there are no further actions required.
 
+### Extending the Domain Schema ###
+1. Open **PowerShell** as **Administrator** on one of the Domain Controllers.
+
+2. Run the following command to verify if **LAPS module** is present.
 {{< highlight html >}}
     PS C:\Users\Administrator> Get-Command -Module LAPS
 {{< /highlight >}}
 
 3. When the **LAPS module** is present, you will recieve the following response.
-
 {{< highlight html >}}
     CommandType     Name                                               Version    Source
     -----------     ----                                               -------    ------
@@ -122,7 +124,7 @@ All supported editions of the above platforms have been updated with Windows LAP
 
 ### Configure the LAPS permissions ###
 
-The managed device needs to be granted permission to update its password and make it visible within Active Directory. This action is performed by setting inheritable permissions on the **Organizational Unit (OU)** the device is located in. The **Set-LapsADComputerSelfPermission** is used for this purpose, for example:
+The managed device needs to be granted permission to update its password and make it visible within Active Directory. This action is performed by setting inheritable permissions on the **Organizational Unit (OU)** the device is located in. The **Set-LapsADComputerSelfPermission** is used for this purpose.
 
 Within my environment, there are several OU's present for the seperation of services.
 ![](/images/00005-windows-laps/laps-permissions-01.png)
@@ -177,7 +179,7 @@ When the administrator account was in use, the password will automatically reset
 ![](/images/00005-windows-laps/configure-laps-group-policy-05.png)
 
 ## Verify password change ##
-After the 90 minute interval, the group policies will be updates automatically. This will enforce the use of LAPS.
+After the 90 minute interval, the group policies will be updated automatically to enforce the use of LAPS.
 When you want to check if the reset has been executed on the password, preform the following steps.
 
 **Active Directory**
