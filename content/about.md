@@ -7,7 +7,7 @@ author = "Kevin Benningshof"
 featureImage = "images/profile_picture_500x500.png"
 +++
 
-My name is Kevin Benningshof and since a while I wanted to write down the information and things I learned in the past and are still learning till date. To make sure, this is shared within everyone who is interested I've had the thoughts of creating a blog / site to let myself write about it and share this with everyone.
+My name is Kevin Benningshof and since a while I wanted to write down the information and things I learned in the past and what i'm still learning till date. To make sure, this is shared within everyone who is interested I've had the thoughts of creating a blog / site to let myself write about it and share this with everyone.
 
 # How did you start in the IT?
 
@@ -17,7 +17,7 @@ Fast-forwarding a couple of years later, my interest started to rais for the cre
 
 # Work experience
 
-Currently, i have 12 years of work experience in performing direct, remote and onsite support to the employees of the customers that are involved to devices and utilities within the IT landscape. In the past i have started as a Floor wakker regarding migrations, as a Servicedesk Engineer and Functional Administrator for de specifiek application. At the moment this is a combination of System Administrator and first point of contact for several customers and internally a functional administrator for TOPdesk so we can deliver the support to the customers.
+Currently, i have 12 years of work experience in performing direct, remote and onsite support to the employees of the customers that are involved to devices and utilities within the IT landscape. In the past i have started as a floor walker regarding migrations, as a Servicedesk Engineer and Functional Administrator for specific applications. At the moment this is a combination of System Administrator and first point of contact for several customers and internally as functional administrator for TOPdesk so we can deliver the support to the customers.
 
 # Which certificates do you have?
 
@@ -28,7 +28,6 @@ Currently, I'm certified for the following
 - MCSA - 70-742 (Identity with Windows Server 2016)
 - MCSA – 70-680 (Windows 7 Configuring)
 - MCSA – 70-685 (Windows 7 Enterprise Desktop Support Technician)
-- ITILv4
 - Professional Scrum Master (PSM1)
 - HDI (Helpdesk Institute)
 

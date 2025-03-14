@@ -26,7 +26,7 @@ FSMO stands for **Flexible Single Master Operations**. FSMO roles ensure that fu
 Within Active Directory there are five unique FSMO roles, each role has its own purpose
 
 * **Schema master**
-    * This DC is responsible for processing updates to the directory schema, which are then replicated to all other DCs in the directory. The schema is the blueprint of an Active Directory.
+    * This Domain Controller is responsible for processing updates to the directory schema, which are then replicated to all other DCs in the directory. The schema is the blueprint of an Active Directory.
 * **Domain naming master**
     * This Domain Controller is responsible for adding and removing domain within the forest. This will ensure that each domain within the forest has a unique name.
 * **RID master**
