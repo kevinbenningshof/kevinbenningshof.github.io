@@ -9,7 +9,7 @@ tags: [
     "windows Server",
     "LAPS"
 ]
-categories: [ "blog" ]
+categories: [ "Blog" ]
 thumbnail: "/images/blog/00005/windows-server-2022.png"
 toc: true
 draft: false

@@ -8,7 +8,7 @@ tags: [
     "Microsoft",
     "windows Server"
 ]
-categories: [ "blog" ]
+categories: [ "Blog" ]
 thumbnail: "/images/blog/00001/windows-server-2022.png"
 toc: true
 draft: false

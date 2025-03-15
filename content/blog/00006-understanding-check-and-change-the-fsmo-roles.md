@@ -9,7 +9,7 @@ tags: [
     "windows Server",
     "FSMO"
 ]
-categories: [ "blog" ]
+categories: [ "Blog" ]
 thumbnail: "/images/blog/00006/windows-server-2022.png"
 toc: true
 draft: false

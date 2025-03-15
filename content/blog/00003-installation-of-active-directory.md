@@ -9,7 +9,7 @@ tags: [
     "windows Server",
     "Active Directory"
 ]
-categories: [ "blog" ]
+categories: [ "Blog" ]
 thumbnail: "/images/blog/00003/windows-server-2022.png"
 toc: true
 draft: false
