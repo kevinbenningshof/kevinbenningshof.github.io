@@ -10,7 +10,7 @@ tags: [
     "Active Directory"
 ]
 categories: [ "blog" ]
-thumbnail: "/icons/windows-server-2022.png"
+thumbnail: "/images/blog/00003/windows-server-2022.png"
 toc: true
 draft: false
 featured: true

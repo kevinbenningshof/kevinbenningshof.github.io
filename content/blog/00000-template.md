@@ -8,9 +8,9 @@ tags: [
     "TEMPLATE"
 ]
 categories: [ "blog" ]
-thumbnail: "/images/00000-template/windows-server-2022.png"
+thumbnail: "/images/00000/windows-server-2022.png"
 toc: true
-draft: false
+draft: true
 featured: true
 ---
 
