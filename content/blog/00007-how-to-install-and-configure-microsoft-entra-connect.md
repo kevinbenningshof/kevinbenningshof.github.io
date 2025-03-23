@@ -10,7 +10,7 @@ tags: [
     "Entra"
 ]
 categories: [ "Blog" ]
-thumbnail: "/images/blog/00007/windows-server-2022.png"
+thumbnail: "/images/blog/00007/microsoft-entra-connect.png"
 toc: true
 draft: false
 featured: true
