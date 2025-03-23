@@ -1,7 +1,7 @@
 ---
 title: "How to Install and Configure Microsoft Entra Connect"
 slug: "how-to-install-and-configure-microsoft-entra-connect"
-date: "2025-03-20T20:00:00"
+date: "2025-03-23T20:00:00"
 author: "Kevin Benningshof"
 summary: "Microsoft Entra Connect is an on-premises Microsoft application designed to meet and accomplish your hybrid identity goals. Within this blog, we will prepaire, install and check the first synchronization."
 tags: [
@@ -12,7 +12,7 @@ tags: [
 categories: [ "Blog" ]
 thumbnail: "/images/blog/00007/windows-server-2022.png"
 toc: true
-draft: true
+draft: false
 featured: true
 ---
 
