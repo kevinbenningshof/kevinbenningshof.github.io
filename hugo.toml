@@ -1,4 +1,5 @@
 baseURL = "https://kevinbenningshof.github.io/"
+ga_analytics = "G-CE6KTXTFKG"
 #languageCode = "en-us"
 title = "kevinbenningshof.nl"
 copyright = "Copyright © 2024 - 2025 Kevin Benningshof"
