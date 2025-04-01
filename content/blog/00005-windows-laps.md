@@ -16,7 +16,7 @@ draft: false
 featured: true
 ---
 
-## Introduction ##
+# Introduction
 Windows LAPS is one of the most effective ways to protect administrator password and prevent unauthorized users getting access to systems and-/or data that they may not have access to. Within Microsoft Local Administrator Password Solution, it will make it possible to manage these passwords and make sure this will be randomized within a set period of time.
 
 Within this blog, we will cover the basics of Microsoft LAPS and ensure that it will.

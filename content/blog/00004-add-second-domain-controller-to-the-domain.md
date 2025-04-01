@@ -16,7 +16,7 @@ draft: false
 featured: true
 ---
 
-## Introduction ##
+# Introduction
 A second domain controller (DC) is a cornerstone of a resilient and efficient network infrastructure. By adding this redundancy, organizations ensure business continuity, improve load distribution, and safeguard against unforeseen failures. In this blog, you will learn how to add a second Domain Controller to the an existing domain.
 
 ## Active Directory Domain Services ##

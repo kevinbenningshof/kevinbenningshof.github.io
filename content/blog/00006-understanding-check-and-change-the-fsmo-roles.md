@@ -16,7 +16,7 @@ draft: false
 featured: true
 ---
 
-## Introduction
+# Introduction
 After the installation and configuration of Active Directory Domain Services on one or more domain controllers, we are reliant on the communication between them. With FSMO we can assign certain responsibility to these domain controllers
 
 ## What is FSMO

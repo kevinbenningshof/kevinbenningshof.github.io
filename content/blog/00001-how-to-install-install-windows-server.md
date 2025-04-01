@@ -15,7 +15,7 @@ draft: false
 featured: true
 ---
 
-## Introduction ##
+# Introduction
 
 Microsoft Windows Server is used world wide to deliver the services that are running in the small, medium and big companies. But it is also possible to use it within, for example your personal homelab seperate to the production environment.
 

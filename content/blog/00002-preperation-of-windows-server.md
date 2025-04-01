@@ -15,7 +15,7 @@ draft: false
 featured: true
 ---
 
-## Introduction ##
+# Introduction
 
 After we have preformed the installation of Windows Server that has been preformed within [How to install Windows Server](/post/2025/02/23/how-to-install-windows-server-2022/), there are some default tasks that need to be performed to make sure the server is working properly before deploying it within your environment.
 

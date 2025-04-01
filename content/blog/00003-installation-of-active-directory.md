@@ -16,7 +16,7 @@ draft: false
 featured: true
 ---
 
-## Introduction ##
+# Introduction
 What is Active Directory Domain Services?
 
 Active Directory Domain Services (AD DS) is a server role in Active Directory that allows admins to manage and store information about resources from a network, as well as application data, in a distributed database.

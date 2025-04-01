@@ -16,7 +16,7 @@ draft: false
 featured: true
 ---
 
-## Introduction
+# Introduction
 Microsoft Entra Connect is an on-premises Microsoft application designed to meet and accomplish your hybrid identity goals. 
 
 ## What is Microsoft Entra Connect

@@ -1,7 +1,7 @@
 ---
 title: "Enforce synchronization of Microsoft Entra Connect"
 slug: "enforce-sync-of-entra-connect"
-date: "2025-03-23T20:00:00"
+date: "2025-03-30T21:00:00"
 author: "Kevin Benningshof"
 summary: "Changes have been applied to several AD objects within Active Directory and this needs to be applied directory. Within this we will preform the check, apply the change and enforce the sync."
 tags: [
@@ -12,11 +12,11 @@ tags: [
 categories: [ "Blog" ]
 thumbnail: "/images/blog/00008/microsoft-entra-connect.png"
 toc: true
-draft: true
+draft: false
 featured: true
 ---
 
-## Introduction
+# Introduction
 It can be that certain information needs to be changed within the on-premises object in the domain. By default Microsoft Entra Connect will preform the synchronization with Entra in a cycle of 30 minutes. This can be seen within Synchronization Service Manager when the last sync has been preformed. Within this post, we can enforce the synchronization within the 30 minute time window to apply the changes.
 
 ## Check the ADSync module
@@ -86,7 +86,7 @@ This command will disable the sync schedule and can be usefull if you need to pr
     CurrentlyEffectiveSyncCycleInterval : 00:30:00
     CustomizedSyncCycleInterval         : 00:15:00
     NextSyncCyclePolicyType             : Delta
-    NextSyncCycleStartTimeInUTC         : 25-3-2025 16:57:29
+    NextSyncCycleStartTimeInUTC         : 24-3-2025 22:03:04
     PurgeRunHistoryInterval             : 7.00:00:00
     SyncCycleEnabled                    : False
     MaintenanceEnabled                  : True
@@ -103,7 +103,7 @@ This command will enable the sync schedule.
     CurrentlyEffectiveSyncCycleInterval : 00:30:00
     CustomizedSyncCycleInterval         : 00:15:00
     NextSyncCyclePolicyType             : Delta
-    NextSyncCycleStartTimeInUTC         : 25-3-2025 16:57:29
+    NextSyncCycleStartTimeInUTC         : 24-3-2025 22:03:04
     PurgeRunHistoryInterval             : 7.00:00:00
     SyncCycleEnabled                    : True
     MaintenanceEnabled                  : True
@@ -111,3 +111,7 @@ This command will enable the sync schedule.
     SchedulerSuspended                  : False
     SyncCycleInProgress                 : False
 {{< /highlight >}}
+
+## Conclusion ##
+When changes need to be applied immidiatly, it's possible to preform the specific command to apply the changes in Entra through Microsoft Entra Connect.
+These are handy when it comes to the creation accounts of a load of changes in one sync moment.
