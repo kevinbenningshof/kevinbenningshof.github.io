@@ -18,7 +18,7 @@ featured: true
 ---
 
 # Introduction
-blablabla introduction, blabla
+Within the company you are working for, there are multiple devices (desktop and-/or laptops) that need to be reinstalled with Windows 10 or Windows 11.  To make sure this will be automated up to a certain level, we can use Windows Deployment Services in combination with Microsoft Deployment Toolkit to automate this proces. Through this blog, we preform the installation, basic configuration and image one of the devices.
 
 ## Preperation
 For the entire blog, it is required to download the software for the installation of Windows Deployment Services and Microsoft Deployment Kit. 
