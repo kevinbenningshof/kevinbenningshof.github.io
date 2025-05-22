@@ -31,7 +31,7 @@ Windows PE add-on 10.1.26100.2454                     | [Download](https://go.mi
 Windows 10 Enterprise (22H2)                          | [Download](https://www.microsoft.com/en-us/evalcenter/download-windows-10-enterprise) | Additional
 Windows 11 Enterprise (24H2)                          | [Download](https://www.microsoft.com/en-us/evalcenter/download-windows-11-enterprise) | Additional
 
-## Installation of Microsoft Deployment Services
+## 1. Installation of Microsoft Deployment Services
 1. Open **Server Manager**
 2. Within **Server Manager**, click on **Manage** and then on **Add Roles and Features**
 ![](/images/00009-installation-and-configuration-of-windows-deployment-services/install-wds-feature-01.png)
@@ -65,7 +65,7 @@ The installation of Windows Deployment Services can be confirmed through the fol
             [X] Windows Deployment Services Tools           WDS-AdminPack                  Installed
 {{< /highlight >}}
 
-## Installation of Microsoft Deployment Toolkit
+## 2. Installation of Microsoft Deployment Toolkit
 1. Open **MicrosoftDeploymentToolkit_x64.msi**
 2. On the **Welcome to the Microsoft Deployment Toolkit Wizard**, click on **Next**
 ![](/images/00009-installation-and-configuration-of-windows-deployment-services/install-mdt-01.png)
@@ -79,7 +79,7 @@ The installation of Windows Deployment Services can be confirmed through the fol
 ![](/images/00009-installation-and-configuration-of-windows-deployment-services/install-mdt-05.png)
 7. On **Completed the Microsoft Deployment Toolkit Setup Wizard**, click on Finish.
 
-## Installation of Windows ADK
+## 3. Installation of Windows ADK
 *Within the following steps, the download has already been preformed for the Windows ADK files.*
 1. Navigate to the installation file of **Windows ADK**
 2. **Right-click** on **ADKSetup.exe** and select **Run as administrator**
@@ -94,7 +94,7 @@ The installation of Windows Deployment Services can be confirmed through the fol
 7. When the installation has been completed, click on **Close**.
 ![](/images/00009-installation-and-configuration-of-windows-deployment-services/install-winadk-05.png)
 
-## Installation of Windows PE add-on
+## 4. Installation of Windows PE add-on
 *Within the followin steps, the download has already been preformed for the Windows ADKWinPEAddons files*
 1. Navigate to the installation file of **Windows ADKWinPEAddons**
 2. **Right-click** on **ADKWinPESetup.exe** and select **Run as administrator**
@@ -109,7 +109,7 @@ The installation of Windows Deployment Services can be confirmed through the fol
 7. When the installation has been completed, click on **Close**.
 ![](/images/00009-installation-and-configuration-of-windows-deployment-services/install-adkwinpe-05.png)
 
-## Configuration of Deployment Share within Windows Deployment Services
+## 5. Configuration of Deployment Share within Windows Deployment Services
 1. Open **Windows Deployment Services**.
 2. Extend **Servers**, **right-click** on the servername and click on **Configure Server**
 ![](/images/00009-installation-and-configuration-of-windows-deployment-services/config-wds-mdt-01.png)
@@ -124,7 +124,7 @@ The installation of Windows Deployment Services can be confirmed through the fol
 7. On **Operation Complete**, disable **Add images to the server now** and click on **Finish**
 ![](/images/00009-installation-and-configuration-of-windows-deployment-services/config-wds-mdt-06.png)
 
-## Configuration of Deployment Share within DeploymentWorkbench
+## 6. Configuration of Deployment Share within DeploymentWorkbench
 1. Open **Deployment Workbench**.
 2. **Right-click** on **Deployment Share** and click on **New Deployment Share**
 ![](/images/00009-installation-and-configuration-of-windows-deployment-services/config-wds-mdt-07.png)
@@ -140,7 +140,7 @@ The installation of Windows Deployment Services can be confirmed through the fol
 ![](/images/00009-installation-and-configuration-of-windows-deployment-services/config-wds-mdt-12.png)
 8. When this is done, click on **Finish**
 
-## Add Operating System to DeploymentShare
+## 7. Add Operating System to DeploymentShare
 *Before proceeding, make sure the ISO is present and mounted on the server for Windows Deployment Services.*
 1. Open **Deployment Workbench**.
 2. Right-click on **Operating System** and click on **Import Operating System**.
@@ -155,7 +155,7 @@ The installation of Windows Deployment Services can be confirmed through the fol
 ![](/images/00009-installation-and-configuration-of-windows-deployment-services/import-os-05.png)
 7. When the **import** has been completed, click on **Finish**
 
-## Create the Task Sequence
+## 8. Create the Task Sequence
 1. Open **Deployment Workbench**.
 2. Right-click on **Task Sequences** and click on **New Task Sequence**.
 ![](/images/00009-installation-and-configuration-of-windows-deployment-services/create-task-01.png)
@@ -177,7 +177,7 @@ The installation of Windows Deployment Services can be confirmed through the fol
 9. On **Summary**, click on **Next**
 10. On **Confirmation**, click on **Finish**
 
-## Configure the DeploymentShare
+## 9. Configure the DeploymentShare
 
 1. Open **Deployment Workbench**
 2. **Right-click** on **MDT Deployment share** and click on **Properties**
@@ -190,7 +190,7 @@ The installation of Windows Deployment Services can be confirmed through the fol
 ![](/images/00009-installation-and-configuration-of-windows-deployment-services/config-mdt-share-04.png)
 6. Click on **Apply** and close the **MDT Deployment share** window.
 
-## Update the DeploymentShare
+## 10. Update the DeploymentShare
 
 To ensure the configuration is applied within the new config
 1. Open **Deployment Workbench**
@@ -202,7 +202,7 @@ To ensure the configuration is applied within the new config
 ![](/images/00009-installation-and-configuration-of-windows-deployment-services/update-mdt-share-03.png)
 5. When the boot image has been generated, click on **Finish**
 
-## Import the Lite Touch PE boot image
+## 11. Import the Lite Touch PE boot image
 
 1. Open **Windows Deployment Services**
 2. Navigate to **Servers** > **servername**, right-click on **Boot Images** and click on **Add Boot Image...**
@@ -215,7 +215,7 @@ To ensure the configuration is applied within the new config
 ![](/images/00009-installation-and-configuration-of-windows-deployment-services/import-litetouch-wim-04.png)
 7. When the boot image has been generated, click on **Finish**
 
-### DeploymentShare rules
+### 11.1 DeploymentShare rules
 
 The use of Windows Deployment Services with Microsoft Deployment Toolkit is to making the installation and preperation of devices alot easier and less time consuming. Doing this the normal way, is to make sure the write settings are selected and the correct user and applications are selected. To make sure this is automated till a 
 
@@ -278,7 +278,7 @@ Now we will need to update the Deployment Share within DeploymentWorkbench to en
 ![](/images/00009-installation-and-configuration-of-windows-deployment-services/update-deployment-share-03.png)
 8. When the new LiteTouchPE boot image has been created, click on **Finish**
 
-## Update LiteTouchPE_x64 within Windows Deployment Services
+## 12. Update LiteTouchPE_x64 within Windows Deployment Services
 
 1. Open **Windows Deployment Services**.
 2. Navigate to **Servers** > **msvs-wds-22-01** > **Boot Images**.
@@ -294,7 +294,7 @@ Now we will need to update the Deployment Share within DeploymentWorkbench to en
 ![](/images/00009-installation-and-configuration-of-windows-deployment-services/update-deployment-share-08.png)
 8. When the Lite Touch Windows PE (x64) image has been replaced, click on **Finish**
 
-## Installing Windows through PXE
+## 13. Installing Windows through PXE
 
 To make sure that the device can PXE boot on the network, it is required to configured the DHCP scope with the Option Names **066 Boot Server Host Name** and **067 Bootfile Name** which will forward the boot request to the WDS server.
 

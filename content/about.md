@@ -59,3 +59,8 @@ For my day to day tasks, i'm using the following devices for personal usage.
 * 64GB DDR4
 * 1TB M.2 NVMe
 * 500GB SSD
+
+##### AsusHewlett Packard ProDesk 400 G7 SFF
+* Intel Core i3-10105
+* 16GB DDR4
+* 512GB M.2 NVMe

@@ -54,7 +54,7 @@ Within the infrastructure of the company you are working for, there are several 
 Now it's time to preform the basic configuration of WSUS.
 1. Navigate to the start menu and open Windows Server Update Services, within **Before You Begin** click on **Next**.
 ![](/images/00010-windows-server-update-services/prep-wsus-role-01.png)
-2. When you want to particiate with the Microsoft Update Improvement Program, you can enable it by selecting **Yes, I would like to join the Microsoft Update Improvement Program**. But in my case, I will not to participate. 
+2. When you want to particiate with the Microsoft Update Improvement Program, you can enable it by selecting **Yes, I would like to join the Microsoft Update Improvement Program**. But in my case, I will not participate. 
 ![](/images/00010-windows-server-update-services/prep-wsus-role-02.png)
 3. Within **Choose Upsteam Server**, select **Synchronize from Microsoft Update** because this is the first and main server that is being configured. Within this we can select **Synchronize from Microsoft Update** and click on **Next**.
 ![](/images/00010-windows-server-update-services/prep-wsus-role-03.png)
@@ -128,7 +128,7 @@ After sometime, you will see that the servers that have been provided with the i
 5. As verification, it's possible to see that the update is available for the members of the group **SVR-Datacenter**
 ![](/images/00010-windows-server-update-services/deploy-patch-through-wsus-05.png)
 
-## 6. Installing the patch
+## 6. Installation of patches
 Within the following steps, we will preform the update procedure from another server where Windows Server Update Service isn't installed.
 
 1. Open **Settings**, navigate to **Windows Updates** and click on **Check for updates**
