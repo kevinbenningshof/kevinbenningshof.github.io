@@ -1,7 +1,7 @@
 ---
 title: "Secure WSUS with PKI certificate"
 slug: "secure-wsus-with-pki-certificate"
-date: "2025-05-22T21:00:00"
+date: "2025-05-18T19:00:00"
 author: "Kevin Benningshof"
 summary: "Using SSL with WSUS is crucial for security and ensuring a reliable update process. By using SSL, WSUS encrypts the metadata passed between clients and the WSUS server, protecting it from interception. This prevents a man-in-the-middle attack, where an attacker could intercept and potentially alter update information. Additionally, SSL helps authenticate the WSUS server to clients, confirming its legitimacy. "
 tags: [
