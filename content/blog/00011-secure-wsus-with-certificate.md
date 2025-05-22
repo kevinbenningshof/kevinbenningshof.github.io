@@ -56,7 +56,7 @@ Using SSL with WSUS is crucial for security and ensuring a reliable update proce
 8. Open the **command prompt** or **PowerShell** and navigate to the directory **C:\Program Files\Update Services\Tools**
 {{< highlight html >}}
     PS C:\Windows\System32> cd 'C:\Program Files\Update Services\Tools'
-    PS C:\Program Files\Update Services\Tools> .\wsusutil.exe configuressl msvs-wsus-22-01.benningshof-it.edu
+    PS C:\Program Files\Update Services\Tools> .\wsusutil.exe configuressl servername.domainname.edu
 {{< /highlight >}}
 9. When this has been configured, you will see the following output
 {{< highlight html >}}
